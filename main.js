@@ -1,5 +1,4 @@
-import Phaser from 'phaser';
-import PhaserConfig from './phaser-config';
+import PhaserConfig from './phaser-config.js';
 
 window.onload = () => {
     new Phaser.Game(PhaserConfig);
